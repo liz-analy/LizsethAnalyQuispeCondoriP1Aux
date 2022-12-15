@@ -15,7 +15,7 @@ export const NavbarQuispe = ({ darkMode, handleClick }) => {
 
     const location = useLocation();
     const [active,setActive]= useState(location.pathname==='/'?'home': location.pathname.slice(1,location.pathname.length));
-    console.log("🚀 ~ file: NavbarQuispe.jsx ~ line 29 ~ NavbarQuispe ~ active", active)
+    console.log(" ~ file: NavbarQuispe.jsx ~ line 29 ~ NavbarQuispe ~ active", active)
     return(
 
         <UserContext.Provider value={userData}>
